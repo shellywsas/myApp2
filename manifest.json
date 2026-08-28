@@ -1,0 +1,16 @@
+{
+  "name": "האפליקציה של שלי",
+  "short_name": "שלי",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#F3E8FF",
+  "theme_color": "#E0E7FF",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
