@@ -14,9 +14,7 @@
       OneSignalDeferred.push(async function(OneSignal) {
         await OneSignal.init({
           appId: "ddf7d81b-4f77-42fc-b47d-e0886b720212",
-          notifyButton: {
-            enable: true,
-          },
+          
           // שתי השורות האלה מתקנות את בעיית התיקייה!
           serviceWorkerParam: { scope: "/myApp2/" },
           serviceWorkerPath: "/myApp2/OneSignalSDKWorker.js"
